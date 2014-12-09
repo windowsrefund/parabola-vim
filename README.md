@@ -1,10 +1,12 @@
 # Overview
-Inspired by http://jasonwryan.com/blog/2013/03/29/vim
+Inspired by [Jason Wryan](http://jasonwryan.com/blog/2013/03/29/vim)
 
-These files however, are specific to Parabola
+These files however, are specific to [Parabola](http://parabolagnulinux.org)
 
 # Usage
 
-  git clone http://github.com/windowsrefund/parabola-vim.git
-  cd parabola-vim
-  makepkg
+<code>
+$ git clone http://github.com/windowsrefund/parabola-vim.git
+$ cd parabola-vim
+$ makepkg
+</code>
