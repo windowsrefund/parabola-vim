@@ -52,13 +52,15 @@ build() {
   ./configure \
     --prefix=/usr \
     --localstatedir=/var/lib/vim \
-    --with-features=normal \
-    --with-compiledby=akosmin \
+    --with-compiledby=windowsrefund \
     --with-x=yes \
     --enable-multibyte \
     --disable-gui \
     --disable-signs \
-    --disable-netbeans
+    --disable-netbeans \
+    --disable-xsmp \
+    --disable-gtktest \
+    --disable-gpm
 
   make
 
@@ -67,13 +69,15 @@ build() {
   ./configure \
     --prefix=/usr \
     --localstatedir=/var/lib/vim \
-    --with-features=normal \
-    --with-compiledby=akosmin \
+    --with-compiledby=windowsrefund \
     --with-x=yes \
     --enable-multibyte \
     --disable-gui \
     --disable-signs \
-    --disable-netbeans
+    --disable-netbeans \
+    --disable-xsmp \
+    --disable-gtktest \
+    --disable-gpm
 
   make
 }
