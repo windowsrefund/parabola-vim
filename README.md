@@ -5,8 +5,6 @@ These files however, are specific to [Parabola](http://parabolagnulinux.org)
 
 # Usage
 
-<code>
-$ git clone http://github.com/windowsrefund/parabola-vim.git
-$ cd parabola-vim
-$ makepkg
-</code>
+    $ git clone http://github.com/windowsrefund/parabola-vim.git
+    $ cd parabola-vim
+    $ makepkg
